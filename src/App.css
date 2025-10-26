@@ -189,3 +189,61 @@ h2 {
   font-size: 1.1rem;
   margin: 0;
 }
+
+/* Responsive styles for small screens */
+@media (max-width: 640px) {
+  .app {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .character-form {
+    flex-direction: column;
+  }
+
+  .character-input {
+    width: 100%;
+  }
+
+  .btn-primary {
+    width: 100%;
+  }
+
+  .controls {
+    flex-direction: column;
+  }
+
+  .controls .btn {
+    width: 100%;
+  }
+
+  .character-info {
+    gap: 0.5rem;
+  }
+
+  .turn-number {
+    min-width: 30px;
+    font-size: 1rem;
+  }
+
+  .character-name {
+    font-size: 1rem;
+  }
+
+  .initiative-score {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.6rem;
+  }
+
+  .empty-state {
+    padding: 2rem 1rem;
+  }
+
+  .empty-state p {
+    font-size: 1rem;
+  }
+}
